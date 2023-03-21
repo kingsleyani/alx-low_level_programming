@@ -12,5 +12,7 @@ int main(void)
 	{
 		printf("%i\n", i);
 	}
+	putchar('\n');
+
 	return (0);
 }
