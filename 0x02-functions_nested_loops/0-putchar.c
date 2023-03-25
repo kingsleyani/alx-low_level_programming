@@ -1,9 +1,11 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * main- print _putchar
- * Return - always 0 (susccess)
+ * main - prints _putchar
+ *
+ * Return: 0 (Success)
  */
+
 int main(void)
 {
 	_putchar('_');
@@ -18,4 +20,3 @@ int main(void)
 
 	return (0);
 }
-
