@@ -1,11 +1,12 @@
 #include "main.h"
+
 /**
- * isalpha - checks for alphabetic character
- * @c: the character to be checked
+ * _isalpha - Check Johnel
+ * @c: An input character
  * Description: function returns 1 if the character is a
  * letter, lowercase or uppercase.
- * Return 1 if c is a letter, lowercase or uppercase; otherwise
- i*/
+ * Return: 1 or 0 in otherwise.
+ */
 int _isalpha(int c)
 {
 	char lower, upper;
@@ -15,8 +16,8 @@ int _isalpha(int c)
 	{
 		for (upper = 'A'; upper <= 'Z'; upper++)
 		{
-			 if (c == lower || c == upper)
-			 isletter = 1;
+			if (c == lower || c == upper)
+				isletter = 1;
 		}
 	}
 	return (isletter);
