@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * *_strcat - concatenates two strings
- * @dest: string of destiny, pointer to a char[]
- * @src: source string, pointer to a char[]
- * Return: char[] concatenated
+ * *_strcat - Concatenates two strings
+ * @dest: String of destiny, pointer to a char[]
+ * @src: Source string, pointer to a char[]
+ * Return: Char[] concatenated
  */
-char *strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	char *d;
 	char *s;
-	int counterS = 0, counterD = 0, i, j;
+	int counterS = 0, counterD = 0,  i, j;
 
 	for (s = src; *s != '\0'; s++)
 		counterS++;
@@ -18,10 +18,11 @@ char *strcat(char *dest, char *src)
 		counterD++;
 
 	j = counterD;
-	for (i = 0; i < counterS; i++)
+	for (i  = 0; i < counterS; i++)
 	{
 		dest[j] = src[i];
-			j++;
+		j++;
 	}
+
 	return (dest);
 }
