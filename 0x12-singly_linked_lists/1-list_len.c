@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * list_len: lenght of elements
- * retun: number of element
+ * return: number of element
  * @h: linked list;
  */
 size_t list_len(const list_t *h)
