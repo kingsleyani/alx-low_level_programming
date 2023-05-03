@@ -19,4 +19,4 @@ int pop_listint(listint_t **head)
 	*head = pointa->next;
 	free(pointa);
 	return (n);
-
+}
