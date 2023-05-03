@@ -2,7 +2,6 @@
 
 /**
  * get_nodeint_at_index - a function that returns the nth node of a listint_t
- 
  * @index: Index of the list, starting with 0
  * @head: Head of the list
  * Return: Node in the current index
